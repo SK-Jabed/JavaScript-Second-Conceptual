@@ -57,3 +57,11 @@ for(let brand of brands.reverse()) {
 }
 
 
+for(let i = 1; i <= 5; i++) {
+    console.log("Hello from I", i);  
+    for(let j =1; j <= 5; j++){
+        console.log("Hello from J", j);
+    }
+}
+
+
