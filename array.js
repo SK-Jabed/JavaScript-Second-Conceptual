@@ -61,3 +61,14 @@ const string = "Lily,Rose,Sun Flower";
 const convert = string.split(",");
 console.log(convert);
 console.log(Array.isArray(convert));
+
+const subject = ["English", "Math", "Physics", "Chemistry"];
+// slice(1, 4)
+console.log(subject.slice(1, 3));
+
+console.log(subject.shift());
+console.log(subject.shift());
+console.log(subject);
+
+subject.unshift("Science", "Economics");
+console.log(subject);
